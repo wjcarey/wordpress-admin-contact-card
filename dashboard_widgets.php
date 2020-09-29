@@ -1,5 +1,4 @@
 <?php
-
 /*
 Plugin name: WP Admin Contact Card
 Version: 0.1
@@ -9,6 +8,7 @@ Author URI: https://wjcarey.io
 Plugin URI: https://github.com/wjcarey/wordpress-admin-contact-card
 License: Apache License 2.0
 */
+require_once( plugin_dir_path( __FILE__ ) . '/custom_widgets.php' );
 
 class Admin_Dashboard_Widgets {
  
@@ -27,7 +27,6 @@ class Admin_Dashboard_Widgets {
             );
         }
     }
- 
 }
- 
+
 $adw = new Admin_Dashboard_Widgets();
