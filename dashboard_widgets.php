@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin name: WP Admin Contact Card
-Version: 0.1
+Version: 0.1.1
 Description: Let your team and users know how to contact you quickly
 Author: WJ Carey
 Author URI: https://wjcarey.io
